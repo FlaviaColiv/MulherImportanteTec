@@ -1,0 +1,40 @@
+:root {
+  --cor-principal: #6795c7;
+  --cor-prateado: #E6E6FA;
+  --cor-de-fundo: #D8BFD8;
+  --cor-foco: #C9AECA;
+  --cor-detalhes: #FFE4B5;
+  --cor-detalhes-claro: #5F1130;
+
+  --cor-de-fundo-escura: #1C1C3B;
+  --cor-foco-escura: #5F4C6F;
+
+  --fonte-nome: 'Great Vibes', cursive;
+  --fonte-texto: 'Crimson Pro', serif;
+  --fonte-mensagem: 'Ephesis', cursive; /* mensagem especial */
+
+}
+
+.light-theme {
+  --bg: var(--cor-de-fundo);
+  --fontColor: var(--fonte-fundo-escura);
+  --btnBg: var(--cor-foco-escura);
+  --btnFontColor: var(--fonte-prateado);
+  --cor-h1: var(--cor-detalhes-claro);
+  --cor-curso: var(--cor-foco);
+  --cor-curso-titulo: var(--cor-principal);
+  --cor-footer-fundo: var(--cor-principal);
+  --cor-footer: var(--cor-foco);
+}
+
+.dark-theme {
+  --bg: var(--cor-de-fundo-escura);
+  --fontColor: var(--cor-prateado);
+  --btnBg: var(--cor-foco);
+  --btnFontColor: var(--cor-de-fundo-escura);
+  --cor-h1: var(--cor-detalhes);
+  --cor-curso: var(--cor-foco-escura);
+  --cor-curso-titulo: var(--cor-principal);
+  --cor-footer-fundo: var(--cor-detalhes);
+  --cor-footer: var(--cor-foco-escura);
+}

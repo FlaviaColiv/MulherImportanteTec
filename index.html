@@ -5,24 +5,72 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="shortcut icon" type="image/png" href="assets/images/undraw_electricity_k2ft.svg">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/cor-e-fonte.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+  <!-- Fontes   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400;800;900&family=Ephesis&family=Great+Vibes&display=swap" rel="stylesheet">
   
-  <title>Simple website</title>
+  <title>Mulher de Poder</title>
 </head>
 <body class="light-theme">
-  <h1>Lista de Tarefas</h1>
-  <p id="msg">
-    Tarefas atuais:
-  </p>
-  <ul>
-    <li class="list">Adicionar estilos visuais</li>
-    <li class="list">Adicionar termas claros e escuros</li>
-    <li>Habilitar a alternância do tema</li>
-  </ul>
   <div>
     <button class="btn">Dark</button>
   </div>
+  <header class="header">
+    <h1 class="header__h1">Mulher de Poder na Tecnologia</h1>
+  </header>
 
-  <script src="assets/js/app.js"></script>
+  <main class="main">
+    <div class="perfil">
+      <img src="assets/images/keller.jpg" alt="foto do perfil" class="perfil__foto">
+      <h1 class="perfil__nome">Ir. Mary Kenneth Keller</h1>
+      <h2 class="perfil__nome_h2">freira e cientista da computação</h2>
+      <p class="perfil__descricao">Mulher, Freira e Cientista. Estadunidense, de Ohio, viveu entre os anos de 1913 e 1985. Umas das primeiras doutoras de seu país, com a tese intitulada: <i>Inferência indutiva em padrões gerados por computador</i> (Inductive Inference on Computer Generated Patterns).</p>
+    </div>
+
+    <section class="section">
+      <h2 class="section__titulo">Principais Contribuições</h2>
+
+      <article class="curso">
+        <h3 class="curso__titulo">Participação: Desenvolvimento da Linguagem de Programação BASIC</h3>
+        <p class="curso__descricao">BASIC é um acrônimo para Beginner's All-purpose Symbolic Instruction Code; em português: Código de Instruções Simbólicas de Uso Geral para Principiantes. </p>
+          <p>Sua contribuição permitiu que qualquer pessoa pudesse aprender a linguagem, se tornando mais acessível para a população.</p> 
+      </article>
+
+      <article class="curso">
+        <h3 class="curso__titulo">Fundação: Departamento de Diências da Domputação na Universidade de Clarke em Iowa</h3>
+        <p class="curso__descricao">Passou 20 anos de sua vida dedicando-se e apaixonando-se pelo potencial do que os computadores poderiam se tornar e visou aumentar o acesso e a informação, promovendo a educação.</p>
+        <p>Existe também uma bolsa de estudos em Ciência da Computação em seu nome na mesma instituição.</p>
+      </article>
+
+      <article class="curso">
+        <h3 class="curso__titulo">Inclusão: Mulher e Educação</h3>
+        <p class="curso__descricao">Irmã Keller defendeu a inclusão e o envolvimento de mulheres na ciência da computação, e contribuiu para a fundação da Association of Small Computer Users in Education (ASCUE).</p> 
+        <p>Acreditava que com a computação seria possível simular, mecanicamente, o processo cognitivo e assim investir em áreas como inteligência artificial. Na importância do ensino com o auxílio da tecnologia e em como a computação poderia ajudar os seres humanos a aprender.</p>
+      </article>
+
+      <article class="curso">
+        <h3 class="curso__titulo">REFERÊNCIA:</h3>
+        <p class="curso__descricao"><a href="https://pt.wikipedia.org/wiki/Mary_Kenneth_Keller" target="_blank">Mary Kenneth Keller - Wikipedia</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="footer__texto">
+      Feito com
+      <img class="icone icone--texto" alt="amor" src="assets/icones/iconmonstr-favorite-5.svg" alt="">
+      por Flávia Oliveira
+    </span>
+  </footer>
+
 </body>
+<script src="assets/js/app.js"></script>
 </html>
